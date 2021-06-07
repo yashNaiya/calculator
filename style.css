@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(255, 215, 162);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+button{
+    width: 20px;
+    border: none;
+    cursor: pointer;
+}
+.display{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 215, 162);
+    padding-right: 20px;
+
+}
+.history  {
+    text-align: right;
+    color: rgb(71, 67, 67);
+    margin: 10px;
+    margin-right: 20px;
+}
+.result{
+    text-align: right;
+    font-size: 25px;
+    margin: 10px;
+}
+.keyboard{
+    height: 400px;
+}
+
+.container{
+    width: 320px;
+    height: 520px;
+    background-color: rgb(255, 183, 95) ;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 50%;
+}
+.number ,.empty{
+    background-color:rgb(255, 183, 95) ;
+    transition: 0.3s;
+}
+.number:hover{
+    background-color: rgb(255, 215, 162);
+}
+.operator{
+    background-color: rgb(255, 215, 162);
+    transition: 0.3s;
+}
+.number:active , .operator:active{
+    font-size: 13px;
+}
