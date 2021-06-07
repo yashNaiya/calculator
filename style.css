@@ -58,14 +58,14 @@ button{
 }
 .number ,.empty{
     background-color:rgb(255, 183, 95) ;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 .number:hover{
     background-color: rgb(255, 215, 162);
 }
 .operator{
     background-color: rgb(255, 215, 162);
-    transition: 0.3s;
+    transition: 0.2s;
 }
 .number:active , .operator:active{
     font-size: 13px;
